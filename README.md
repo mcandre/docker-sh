@@ -1,4 +1,4 @@
-# docker-sh - a Docker container that prints Hello World
+# docker-sh - a Docker container that launches a bash session for running multiple commands
 
 # DOCKER HUB
 
