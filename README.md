@@ -17,10 +17,10 @@ https://registry.hub.docker.com/u/mcandre/docker-sh/
 ```
 $ make run
 
-# touch test
-# ls test
+root@container # touch test
+root@container # ls test
 test
-# exit
+root@container # exit
 
 $
 ```
