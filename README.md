@@ -16,9 +16,12 @@ https://registry.hub.docker.com/u/mcandre/docker-sh/
 
 ```
 $ make run
-# echo 'Hello World!'
-Hello World!
+
+# touch test
+# ls test
+test
 # exit
+
 $
 ```
 
