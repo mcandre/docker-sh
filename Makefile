@@ -6,7 +6,7 @@ build: Dockerfile
 	docker build -t $(IMAGE) .
 
 run: clean-containers build
-	docker run -it $(IMAGE) bash
+	docker run -it $(IMAGE) sh
 
 clean-containers:
 	-docker ps -a | grep -v IMAGE | awk '{ print $$1 }' | xargs docker rm -f
